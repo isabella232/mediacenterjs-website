@@ -1,10 +1,10 @@
 (function($){
   "use strict";
 	window.scrollTo(0,0);
-	resizeViewport();
+//	resizeViewport();
    
 	$(window).resize(function() {
-		resizeViewport();
+	//	resizeViewport();
 	});
 	
 	function resizeViewport(){
