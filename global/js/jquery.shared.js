@@ -9,8 +9,8 @@
 	
 	function resizeViewport(){
 		var windowHeight = $(window).height();
-		if (windowHeight < 850){ 
-			newHeight = 850
+		if (windowHeight < 800){ 
+			newHeight = 800
 			$('body').addClass('fixed');
 		} else {
 			$('body').removeClass('fixed');
