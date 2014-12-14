@@ -57,7 +57,7 @@
 			<h1>A new way of enjoying all your media</h1>
 			<h3>A complete media center in your browser</h3>
             <div class="button-wrapper">
-                <a class="button" onclick=" ga('send', 'pageview', '/download');" href="https://github.com/jansmolders86/mediacenterjs-windows/raw/master/setup.exe" >Download now<span>Beta version</span></a>
+                <a class="button" onclick=" ga('send', 'pageview', '/download');" href="https://github.com/jansmolders86/mediacenterjs-windows/raw/master/setup.exe" >Download now<span>Requires NodeJs</span></a>
                 <a href="#sixth" class="scroll-link">Not on Windows? </a>
 
                 <!-- AddThis Button BEGIN 
@@ -195,18 +195,15 @@
 					<div class="ym-gbox">
 					
 						<h1>Progress report</h1>
-						<h2>Current version: 0.1.0</h2>
+						<h2>Current version: 0.1.1</h2>
 						<p>The project is in Beta ( aka "Batman"). Which means the current state should give you a good idea of where the project is heading. <br/>
 						This also means there are still bugs to be fixed and functionality to be added.</p>
 						<h2>Latest changes:</h2>
 						<ul class="bullets">
-                            <li>Added abstraction layer. Thanks to Jonathan Bailey</li>
-                            <li>New design</li>
-                            <li>Improved metadata fetching </li>
-                            <li>Added language support for Italian, Russian, Ukrainian and Turkish (Thanks: Domenico, Alexey and Dogan) </li>
-                            <li>Serveral bugfixes (Thanks: J&#232;r&#232;mie and Gary)</li>
-                            <li>Basic scheduled tasks</li>
-                            <li>Stability fixes</li>
+                            <li>Improved homescreen</li>
+                            <li>Added file logging</li>
+                            <li>MP4 video will not be transcoded</li>
+                            <li>Stability tweaks</li>
 						</ul>
 						
 						<h2>Found an issue?</h2>
@@ -229,6 +226,14 @@
 					<div class="ym-gbox">
 					
 						<h1>News </h1>
+						
+						<h2>Updates</h2>
+						<p>
+							This new minor release brings stability and a couple of nice new things to MediacenterJs. For instance, all logs will be written to a file in the log folder for easy debugging. <br/>
+							Furthermore the Windows setup has been rewritten. No longer will NodeJs be packaged with the installer, but in return all path variables will be set during the installation. <br/>
+							Also, NPM will be used to install all the dependencies during setup so the filesize of the installer is drastically reduced. Please make sure you have NodeJs installed before installing MediacenterJS.
+						</p>
+						
 						<h2>Beta status reached</h2>
                         <p>Although it took a bit longer than anticipated, 
 							the MediacenterJS project has reached beta status (aka "Batman") mainly due to the amazing work of <a href="https://github.com/Jon889" target="_blank">Jonathan Bailey</a>. 
