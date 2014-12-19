@@ -1,5 +1,4 @@
 $(function(){
-  "use strict";
 	window.scrollTo(0,0);
 
 	$(".scroll-link").click(function(e) {
