@@ -33,6 +33,10 @@ article{padding:80px 0;}
    .navbar-nav li:last-child{ float:right; }
 }
 
+@media (max-width: 450px) {
+.navbar-nav li{width:100%!important;}	
+}
+
 .navbar-nav iframe{
    padding-top: 17px;
    height: 50px;
@@ -135,6 +139,7 @@ header{
 	.jumbotron#phone .container { bottom:40px; font-size:40px;} 
 	.jumbotron h1, 
 	.jumbotron#phone h1 {font-size:30px;}
+	body{padding:0!important;}
 }
 
 
@@ -251,7 +256,7 @@ footer ul li span{ display: block; margin:20px 0;}
    #mc_embed_signup input,
    #mc_embed_signup input,
    #mc_embed_signup label{
-	   width:100%!important; 
+	   width:80%!important; 
 	   float:none!important;
 	   max-width:320px!important;
 	   display:block!important;
