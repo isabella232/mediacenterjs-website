@@ -132,7 +132,7 @@ header{
 	.jumbotron#plugins .container{ width:100%; position:relative; left:auto; right:auto; bottom:auto; top:auto;	} 
 	.jumbotron#plugins .tagline{display:none;}
 	.jumbotron#phone .container { bottom:40px; font-size:40px;} 
-	.jumbotron#phone h1 {font-size:40px;}
+	.jumbotron#phone h1 {font-size:30px;}
 }
 
 
