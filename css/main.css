@@ -68,6 +68,8 @@ header{
    vertical-align: middle;
 }
 
+.logo span sup{ font-size:50%; top:-18px;} 
+
 .mobile-logo{
    position: absolute;
    top:5px;
