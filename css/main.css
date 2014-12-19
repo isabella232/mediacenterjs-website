@@ -1,0 +1,258 @@
+
+body{font-family: 'Lato', sans-serif;}
+
+h1{ font-weight:300; margin-bottom: 10px;}
+h2{ font-weight:600; margin-bottom: 50px;}
+h3{ font-weight:300; font-size:20px; margin-bottom: 50px;}
+
+p{line-height: 34px; font-size:17px;}
+
+article{padding:80px 0;}
+
+/* ==========================================================================
+   nav
+   ========================================================================== */
+
+.navbar{
+   background:#131313;
+   border-radius:0;
+   border:0;
+   position: absolute;
+   top:0;
+   right:0;
+}
+
+.navbar-nav{
+   width: 100%;
+}
+
+.navbar-inverse .navbar-nav>li>a{ font-size:16px; font-weight:600;}
+
+@media (min-width: 750px) {
+   .navbar .container{ float:left;}
+   .navbar-nav li:last-child{ float:right; }
+}
+
+.navbar-nav iframe{
+   padding-top: 17px;
+   height: 50px;
+   width: 150px;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header{
+   background:#252525;
+   padding: 0px 30px 10px;
+}
+
+
+.logo{
+   float:left;
+   padding:10px 40px;
+}
+
+.logo span {
+   color: #fff;
+   font-size: 26px;
+   line-height: 40px;
+   font-weight: 300;
+   padding-left: 20px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.mobile-logo{
+   position: absolute;
+   top:5px;
+   left:25px;
+}
+
+/* ==========================================================================
+   Jumbo
+   ========================================================================== */
+
+.jumbotron h1{font-size:36px; color:#fff; font-weight:300; font-size:60px; font-weight:800;}
+
+.jumbotron{
+   background: url(img/header-bg.png) no-repeat;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+}
+
+.jumbotron#phone{
+   background-image: url(img/phone.png);
+}
+
+.jumbotron#plugins{
+   height:600px;
+   background-image: url(img/plugins.png);
+}
+
+.jumbotron .container {
+   position: absolute;
+   bottom:20%;
+   left:20%;
+   color:#fff;
+}
+
+.jumbotron#phone .container {
+   left:20%;
+   bottom:40%;
+   font-size:60px;
+}
+
+.jumbotron#plugins .container{
+   left:auto;
+   right:10%;
+   bottom:7%;
+   width:520px;
+   background:rgba(0,0,0,0.4);
+   padding:30px;
+}
+
+.jumbotron#plugins .tagline{
+	position:absolute;
+	left:20px;
+	bottom:20px;
+	color:#fff;
+}
+
+.jumbotron#phone h1{font-size:60px; font-weight:800;}
+.jumbotron#plugins .container a{color:#fff; text-decoration:underline;}
+
+
+@media (max-width: 450px) {
+	.jumbotron{ background-position: -500px 0; }
+	.jumbotron .container { bottom:0; }
+	.jumbotron#plugins{ background:#fff; position:relative; overflow:hidden; height:auto;}
+	.jumbotron#plugins .container{ width:100%; position:relative; left:auto; right:auto; bottom:auto; top:auto;	} 
+	.jumbotron#plugins .tagline{display:none;}
+	.jumbotron#phone .container { bottom:40px; font-size:40px;} 
+	.jumbotron#phone h1 {font-size:40px;}
+}
+
+
+
+/* ==========================================================================
+   button
+   ========================================================================== */
+
+.btn-primary {
+   background-color:#c94a2d;
+   background-image: -webkit-linear-gradient(top,#cb7932 0,#c94a2d 100%);
+   background-image: -o-linear-gradient(top,#cb7932 0,#c94a2d 100%);
+   background-image: -webkit-gradient(linear,left top,left bottom,from(#cb7932),to(#c94a2d));
+   background-image: linear-gradient(to bottom,#cb7932 0,#c94a2d 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cb7932', endColorstr='#c94a2d', GradientType=0);
+   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+   background-repeat: repeat-x;
+   border-color: #c94a2d;
+}
+
+.btn-primary:hover {
+   background-color:#cb7932;
+   background-image: -webkit-linear-gradient(top,#c94a2d 0,#cb7932 100%);
+   background-image: -o-linear-gradient(top,#c94a2d 0,#cb7932 100%);
+   background-image: -webkit-gradient(linear,left top,left bottom,from(#c94a2d),to(#cb7932));
+   background-image: linear-gradient(to bottom,#c94a2d 0,#cb7932 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c94a2d', endColorstr='#cb7932', GradientType=0);
+   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+   background-repeat: repeat-x;
+   border-color: #c94a2d;
+}
+
+/* ==========================================================================
+   Panels
+   ========================================================================== */
+.panel { border-radius:0; border-bottom:5px solid #ccc;}
+.panel-default > .panel-heading{ font-size:18px; font-weight:600; background:#fff; border:0; padding: 20px 15px 0; }
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer{ background:#252525; min-height:150px; padding-top:40px;}
+footer ul{ text-align: center;}
+footer ul li{display:inline-block; padding:0 20px; color: #9d9d9d; font-weight:300; font-size:14px;}
+footer ul li a{ color: #9d9d9d; font-weight:600; font-size:16px;}
+footer ul li a:hover{ color: #fff;}
+footer ul li span{ display: block; margin:20px 0;}
+
+/* ==========================================================================
+   Email
+   ========================================================================== */
+
+
+#mc_embed_signup{
+	padding:20px;
+	background:#000;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+
+#mc_embed_signup_scroll{width:750px; margin:0  auto;}
+
+#mc_embed_signup input[type="email"]{
+	width:300px;
+	height:40px;
+	line-height:40px;
+	float:left;
+	padding-left:5px;
+}
+
+#mc_embed_signup label {
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	margin-right: 10px;
+	line-height: 40px;
+}
+
+#mc_embed_signup input[type="submit"]{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background: none;
+	border: 1px solid #fff;
+	color: #fff;
+	float: left;
+	margin-left:10px
+}
+
+#mc_embed_signup input[type="submit"]:hover{
+	background:#fff;
+	color: #000;
+}
+
+#mc_embed_signup div.mce_inline_error {
+	margin: 0 0 1em 0;
+	padding: 10px;
+	background-color: #6B0505;
+	font-weight: bold;
+	z-index: 1;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+@media (max-width: 450px) {
+   #mc_embed_signup input,
+   #mc_embed_signup input,
+   #mc_embed_signup label{
+	   width:100%!important; 
+	   float:none!important;
+	   max-width:320px!important;
+	   display:block!important;
+	   margin:0!important;
+   }
+}
+
