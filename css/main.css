@@ -128,10 +128,12 @@ header{
 @media (max-width: 450px) {
 	.jumbotron{ background-position: -500px 0; }
 	.jumbotron .container { bottom:0; }
+	#advertisement{display:none!important;}
 	.jumbotron#plugins{ background:#fff; position:relative; overflow:hidden; height:auto;}
 	.jumbotron#plugins .container{ width:100%; position:relative; left:auto; right:auto; bottom:auto; top:auto;	} 
 	.jumbotron#plugins .tagline{display:none;}
 	.jumbotron#phone .container { bottom:40px; font-size:40px;} 
+	.jumbotron h1, 
 	.jumbotron#phone h1 {font-size:30px;}
 }
 
@@ -255,6 +257,5 @@ footer ul li span{ display: block; margin:20px 0;}
 	   display:block!important;
 	   margin:0!important;
    }
-   #advertisement{display:none;}
 }
 
