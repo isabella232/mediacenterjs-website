@@ -275,7 +275,10 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
 
    .jumbotron h1,
-   .jumbotron#phone h1 {font-size:20px;}
+   .jumbotron#phone h1 {font-size:50px;}
+   .jumbotron#plugins {background-position: -500px 0;  }
+   .jumbotron .container {left: 0;  }
+   .jumbotron#phone .container { left: 0; }
 
 }
 
@@ -285,7 +288,10 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 
    .jumbotron h1,
-   .jumbotron#phone h1 {font-size:20px;}
+   .jumbotron#phone h1 {font-size:50px;}
+   .jumbotron#plugins {background-position: -500px 0;  }
+   .jumbotron .container {left: 0;  }
+   .jumbotron#phone .container { left: 0; }
 
 
 }
