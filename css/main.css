@@ -279,6 +279,7 @@ and (orientation : portrait) {
    .jumbotron#plugins {background-position: -500px 0;  }
    .jumbotron .container {left: 0;  }
    .jumbotron#phone .container { left: 0; }
+   .logo span {display:none}
 
 }
 
